@@ -1,0 +1,123 @@
+commit 82899026e018a7a19aa0379415ba8f9159fa98f8
+Author: Fransilia <mathilda.liljestrand@gmail.com>
+Date:   Mon Nov 2 18:29:35 2020 +0200
+
+    file22
+
+ tiedostoja/file22 | 0
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+
+commit e112cc872116e3312c3069bdfeffe56b0c555348
+Author: Fransilia <mathilda.liljestrand@gmail.com>
+Date:   Mon Nov 2 18:28:58 2020 +0200
+
+    poistettu ja uudelleennimetty
+
+ tiedostoja/file1 | 0
+ tiedostoja/file2 | 0
+ 2 files changed, 0 insertions(+), 0 deletions(-)
+
+commit 9bdacf986ef103283abb30b874f77d39ee85aded
+Author: Fransilia <mathilda.liljestrand@gmail.com>
+Date:   Mon Nov 2 18:19:22 2020 +0200
+
+    uudet tiedostot
+
+ tiedostoja/file1 | 0
+ tiedostoja/file2 | 0
+ tiedostoja/file3 | 0
+ 3 files changed, 0 insertions(+), 0 deletions(-)
+
+commit c8c1040d7bd0e0973dd4b03d3d09891f2cffe3bc
+Author: Fransilia <mathilda.liljestrand@gmail.com>
+Date:   Mon Nov 2 18:15:54 2020 +0200
+
+    peruminen
+
+ eka.txt | 3 +--
+ 1 file changed, 1 insertion(+), 2 deletions(-)
+
+commit 8e7bf043805fa06c3d35b879e6e337f9d532a040
+Author: Fransilia <mathilda.liljestrand@gmail.com>
+Date:   Mon Nov 2 18:01:08 2020 +0200
+
+    kokeilu editointi ja git add -p
+
+ eka.txt    | 6 ++----
+ kolmas.txt | 2 +-
+ 2 files changed, 3 insertions(+), 5 deletions(-)
+
+commit c20cb8fadf77cd39c9d2f19aa7fdff5cb339e1ae
+Author: Fransilia <mathilda.liljestrand@gmail.com>
+Date:   Mon Nov 2 17:58:53 2020 +0200
+
+    nimenmuutos ja poisto
+
+ eka.txt | 5 +++++
+ 1 file changed, 5 insertions(+)
+
+commit 343ce142a74be41e163a4e6b9f1b0f515564aca4
+Author: Fransilia <mathilda.liljestrand@gmail.com>
+Date:   Mon Nov 2 17:58:39 2020 +0200
+
+    aslkdjf
+
+ tiedosto.txt | 5 -----
+ 1 file changed, 5 deletions(-)
+
+commit 1cf73ba6fc3cf5502b93df879eb3a9308fb76541
+Author: Fransilia <mathilda.liljestrand@gmail.com>
+Date:   Mon Nov 2 17:56:58 2020 +0200
+
+    toinen poistettu
+
+ toinen.txt | 1 -
+ 1 file changed, 1 deletion(-)
+
+commit 19cdd3be285953c15ab260f61b28e0c82b96018b
+Author: Fransilia <mathilda.liljestrand@gmail.com>
+Date:   Mon Nov 2 17:53:37 2020 +0200
+
+    paljon tekstiä
+
+ tiedosto.txt | 6 +++++-
+ 1 file changed, 5 insertions(+), 1 deletion(-)
+
+commit cdcae182592ef5df71799b6c4d3278eacbf1a328
+Author: Fransilia <mathilda.liljestrand@gmail.com>
+Date:   Thu Oct 29 20:10:33 2020 +0200
+
+    stuff kansio lisätty ja laitettu jokin.txt
+
+ stuff/jokin.txt | 0
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+
+commit 45956124b9c950bd1e0b8ed38c5dd8eb2899f07c
+Author: Fransilia <mathilda.liljestrand@gmail.com>
+Date:   Thu Oct 29 20:08:53 2020 +0200
+
+    kolmas.txt lisätty ja sisällöt muutettu
+
+ kolmas.txt | 1 +
+ toinen.txt | 1 +
+ 2 files changed, 2 insertions(+)
+
+commit 1c6a4c0746b86631c676744340b6d7305020155f
+Author: Fransilia <mathilda.liljestrand@gmail.com>
+Date:   Thu Oct 29 20:05:38 2020 +0200
+
+    muutos ja lisäys
+
+ tiedosto.txt | 1 +
+ toinen.txt   | 0
+ 2 files changed, 1 insertion(+)
+
+commit 437e247b21452655c5305871d5c8bd9b70e09d4d
+Author: Fransilia <mathilda.liljestrand@gmail.com>
+Date:   Thu Oct 29 20:02:54 2020 +0200
+
+    tiedosto.txt luotu
+
+ tiedosto.txt | 0
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+
