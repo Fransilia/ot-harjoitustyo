@@ -5,4 +5,4 @@
 
 [komentorivi.txt](https://github.com/Fransilia/ot-harjoitustyo/blob/master/laskarit/viikko1/komentorivi.txt)
 
-*tämä on muutos*
+**tämä on muutos**
