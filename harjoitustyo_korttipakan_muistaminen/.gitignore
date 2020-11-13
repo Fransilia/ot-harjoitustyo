@@ -1,0 +1,5 @@
+.coverage
+.pytest_cache
+htmlcov
+src/ui/__pycache___
+

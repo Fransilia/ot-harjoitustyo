@@ -2,3 +2,5 @@
 /laskarit/viikko2/unicafe/.coverage
 /laskarit/viikko2/unicafe/htmlcov
 /laskarit/viikko2/maksukortti/htmlcov
+__pychache__/
+*.py[cod]
