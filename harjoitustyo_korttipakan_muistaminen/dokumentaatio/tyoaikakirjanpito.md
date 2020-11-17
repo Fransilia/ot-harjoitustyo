@@ -8,3 +8,4 @@
 | 14.11 | 3    | ekasivu ja pelin alustussivu ui |
 | 14.11 | 2    | korttipakan ekat toiminnallisuudet |
 | 16.11 | 1    | testit ja pipenv alustus |
+| 16.11 | 1    | säätöä koulukoneiden testauksessa ja pipenv lataus |
