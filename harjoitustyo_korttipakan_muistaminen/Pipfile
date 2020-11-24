@@ -12,5 +12,7 @@ start = "python3 src/index.py"
 [packages]
 pytest = "*"
 coverage = "*"
+pillow = "*"
+pylint = "*"
 
 [requires]
