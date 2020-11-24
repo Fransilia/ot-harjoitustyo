@@ -20,22 +20,22 @@ Sovellus on peli jonka avulla voi harjoitella muistamista. Sovelluksessa näytet
     * Saatetaan lisätä rajoite monta kertaa peliä voi pelata kirjautumatta *mikäli se on mahdollista tehdä*
 ### Pelin aloittaminen ###
 * Ennen pelin alkua tulee lomake missä kysytään seuraavat asiat:
-    * Näytetäänkö koko pakka vai vähemmän kortteja
-        * mikäli koko pakka niin voi valita kuinka monta pakkaa *mietin tätä vielä*
-        * mikäli vähemmän kortteja käyttäjä syöttää määrän (esim 10 korttia)
+    * Näytetäänkö koko pakka vai vähemmän kortteja (**tehty**)
+        * mikäli koko pakka niin voi valita kuinka monta pakkaa (**tehty**)
+        * mikäli vähemmän kortteja käyttäjä syöttää määrän (esim 10 korttia) (**tehty** , *määrä syötetään jokatapauksessa*)
     * Kuinka monta sekunttia yksi kortti näytetään ruudulla ennen seuraavaan siirtymistä 
     * Ilmoitetaanko heti virheestä vai vasta pelin lopussa tulokset sivulla
-* Lomakkeen lopussa on nappi aloita peli ja peli alkaa käyttäjän antamilla asetuksilla
+* Lomakkeen lopussa on nappi aloita peli ja peli alkaa käyttäjän antamilla asetuksilla (**tehty**)
 ### Pelaaminen ###
-* Haluttu määrä kortteja näytetään ruudulla
+* Haluttu määrä kortteja näytetään ruudulla (**tehty**)
     * kukin kortti näkyy niin kauan kun on pelin aloituslomakkeessa sanottu
     * ruudun alapuolella näytetään monesko kortti on menossa (esim 4/52)
-* Kun kaikki kortit on näytetty avautuu seuraava näkymä jossa on kaikki korttipakan kortit näkyvissä.
+* Kun kaikki kortit on näytetty avautuu seuraava näkymä jossa on kaikki korttipakan kortit näkyvissä. (**aloitettu**)
     * Näkymässä näytetään myös monesko kortti on menossa ja monta on jäljellä esim (5/52)
-    * Näkymässä on myös seuraava/"lukitse vastaus" nappi jossa käyttäjä lukitsee kortin ja siirtyy valitsemaan seuraavaa
+    * Näkymässä on myös seuraava/"lukitse vastaus" nappi jossa käyttäjä lukitsee kortin ja siirtyy valitsemaan seuraavaa (**tehty**)
     * Näkymässä on myös anna periksi nappi missä peli päättyy
-* Pelaaja valitsee kortin minkä muistaa tulleen ensimmäiseksi ja painaa sitten seuraava nappia. Tämän jälkeen hän valitsee muistamansa toisen kortin ja niin edespäin. 
-* Kun pelaaja on valinnut kaikki kortit peli päättyy ja päästään tuloksiin. 
+* Pelaaja valitsee kortin minkä muistaa tulleen ensimmäiseksi ja painaa sitten seuraava nappia. Tämän jälkeen hän valitsee muistamansa toisen kortin ja niin edespäin. (**tehty**)
+* Kun pelaaja on valinnut kaikki kortit peli päättyy ja päästään tuloksiin. (**tehty**)
 ### Tulokset ###
 * Pelin päätteeksi päästään tulokset sivulle 
 * Tässä näytetään kuinka monta korttia sai oikein
@@ -45,5 +45,5 @@ Sovellus on peli jonka avulla voi harjoitella muistamista. Sovelluksessa näytet
 
 ## Jatkokehitysideoita ##
 * hienot animaatiot
-* lisää tilastoja 
+* lisää tilastoja (esim mikä kortti unohtuu usein ja monesko kortti unohtuu usein)
 * toisenlainen peli helppo peli muoto? 
