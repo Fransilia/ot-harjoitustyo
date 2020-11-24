@@ -1,1 +1,1 @@
-![Pakkausrakenne](./kuvat/pelinaloitus.png)
+![Pakkausrakenne](./Kuvat/pelinaloitus.png)
