@@ -13,8 +13,8 @@ class GameSettings:
         amount = self.card_number_entry.get()
         try:
             val = int(amount)
-            ##self.handle_show_game_first_view()
             gamestate = GameState(val)
+            self.handle_show_game_first_view(gamestate)
             gamestate.print_status()
         except ValueError:
             messagebox.showinfo("VIRHE", "Ole ystävällinen ja syötä kokonaisluku. Kiitos!")
