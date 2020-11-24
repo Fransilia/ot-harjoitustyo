@@ -1,4 +1,4 @@
-from tkinter import *
+from tkinter import Radiobutton, StringVar, IntVar, Frame, Button, constants
 from entities.card import Suit, Card
 
 class GameAnswers:

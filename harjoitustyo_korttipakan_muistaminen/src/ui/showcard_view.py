@@ -1,4 +1,4 @@
-from tkinter import *
+from tkinter import Label, Frame, Button, constants
 from PIL import Image, ImageTk
 import os
 
