@@ -37,8 +37,9 @@ Sovellus on peli jonka avulla voi harjoitella muistamista. Sovelluksessa näytet
 * Pelaaja valitsee kortin minkä muistaa tulleen ensimmäiseksi ja painaa sitten seuraava nappia. Tämän jälkeen hän valitsee muistamansa toisen kortin ja niin edespäin. (**tehty**)
 * Kun pelaaja on valinnut kaikki kortit peli päättyy ja päästään tuloksiin. (**tehty**)
 ### Tulokset ###
-* Pelin päätteeksi päästään tulokset sivulle 
-* Tässä näytetään kuinka monta korttia sai oikein
+* Pelin päätteeksi päästään tulokset sivulle (**tehty**)
+* Tässä näytetään kuinka monta korttia sai oikein (**tehty**)
+* Mitkä kortit meni oikein ja mitkä väärin (**tehty**)
 * Voi verrata omia vastauksia oikeisiin vastauksiin
 * Mikäli on rekisteröitynyt käyttäjä voi verrata aikaisempia tuloksia tämän pelin tulokseen. 
 * Näkyy myös millä asetuksilla juuri pelasi 

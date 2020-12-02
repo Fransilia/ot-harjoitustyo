@@ -1,5 +1,6 @@
-from tkinter import Label, Frame, Button, constants
+from tkinter import Frame, Button, constants
 from PIL import Image, ImageTk
+from ui.card_image_view import create_card_image
 import os
 
 class ShowCard:
@@ -13,15 +14,7 @@ class ShowCard:
 
     def initialize(self):
         self.frame = Frame(master=self.root)
-        scriptDir = os.path.dirname(__file__)
-        card_path = "./card_images/" + self.gamestate.deck[self.current_card].card_id() + ".jpg"
-        impath = os.path.join(scriptDir, card_path)
-        print(impath)
-        currentcard = Image.open(impath)
-        currentcard = currentcard.resize((250,400), Image.ANTIALIAS)
-        render = ImageTk.PhotoImage(currentcard)
-        img = Label(master=self.frame, image=render)
-        img.image = render
+        img = create_card_image(self.frame, self.gamestate.deck[self.current_card])
         img.grid(row=0, column=0)
         next_button = Button(master=self.frame, text="Seuraava", command=self.nextcard_button_pressed)
         next_button.grid(padx=5, pady=5, sticky=constants.EW)

@@ -33,6 +33,22 @@ class GameState:
     def get_answers(self):
         return self.answers
 
+    def get_deck_size(self):
+        return len(self.deck)
+
+    def get_result(self):
+        ans = self.get_answers()
+        correct_amount = 0
+        comparison = []
+        for i in range(0,len(ans)):
+            correct_card = self.deck[i]
+            user_card = ans[i]
+            is_same = correct_card == user_card
+            if is_same:
+                correct_amount += 1
+            comparison.append((is_same, correct_card, user_card))
+        return correct_amount, comparison
+
     def all_answers_done(self):
         return len(self.deck) <= len(self.answers)
 

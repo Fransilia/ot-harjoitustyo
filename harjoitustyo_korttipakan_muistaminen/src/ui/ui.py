@@ -54,7 +54,8 @@ class UI:
         self.hide_current_view()
         self.current_view = GameResults(
             self.root,
-            gamestate
+            gamestate,
+            self.show_settings_view
         )
         self.current_view.pack()
     

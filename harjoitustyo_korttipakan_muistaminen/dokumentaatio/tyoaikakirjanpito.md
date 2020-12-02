@@ -12,3 +12,10 @@
 | 23.11 | 3    | kortit näkyviin showcard_view avulla |
 | 24.11 | 5    | kortti näkymä jatkuu & vastausten keräys käyttäjältä  |
 | 24.11 | 1    | pylintrc toimimaan ja wildcard imports pois |
+| 01.12 | 2    | tulossivu toiminta ja ui |
+| 02.12 | 1    | generinen korttikuvan näyttäminen |
+| 02.12 | 3    | vastaukset tulossivulle scrollattavana |
+| 02.12 | 1    | pylint uudestaan toimimaan toivottavasti tällä kertaa. |
+| 02.12 | 1    | dokumentaatio |
+
+Tunnit yhteensä: 28h
