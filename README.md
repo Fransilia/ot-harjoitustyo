@@ -13,6 +13,8 @@ Perusprojektirakenne toimii. Alkuruudussa aloita nappia painamalla pääsee vali
 [Arkkitehtuuri](https://github.com/Fransilia/ot-harjoitustyo/blob/41148b8e3d566ece72ad9407172c8cc6369052e1/harjoitustyo_korttipakan_muistaminen/dokumentaatio/arkkitehtuuri.md)
 
 ### Asennus
+[Release 1](https://github.com/Fransilia/ot-harjoitustyo/releases/tag/viikko5)
+
 1. Asenna riippuvuudet komennolla:
 ```
 python3 -m pipenv install
