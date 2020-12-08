@@ -1,5 +1,5 @@
 from tkinter import Frame, constants, Button, messagebox, Entry, Label
-from entities.gamestate import GameState
+from states.gamestate import GameState
 
 class GameSettings:
     def __init__(self,root, handle_show_game_first_view):

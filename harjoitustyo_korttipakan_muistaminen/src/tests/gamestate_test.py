@@ -1,6 +1,6 @@
 import unittest
 from entities.card import Card, Suit
-from entities.gamestate import GameState 
+from states.gamestate import GameState 
 
 class TestGameState(unittest.TestCase):
     def setUp(self):
