@@ -36,7 +36,7 @@ class GameResults:
         player_answers_text.config(font=("Courier", 20))
         player_answers_text.grid(row=5, column=0)
 
-        sf = ScrollableFrame(self.frame)
+        sf_correct = ScrollableFrame(self.frame)
         sf_user = ScrollableFrame(self.frame)
 
         for i in range(len(comparison)):
@@ -45,22 +45,22 @@ class GameResults:
             is_correct, correct_card, user_card = comparison[i]
             text = "vastasit:\noikein" if is_correct else "vastasit:\nväärin" 
             color = "green" if is_correct else "red"
-            img = create_card_image(sf.scrollable_frame, correct_card, 50,100)
+            img = create_card_image(sf_correct.scrollable_frame, correct_card, 50,100)
             img.grid(row=0, column=i)
-            L = Label(master=sf.scrollable_frame, text= text, fg = color)
-            L.grid(row=1,column=i)
+            label = Label(master=sf_correct.scrollable_frame, text= text, fg = color)
+            label.grid(row=1,column=i)
             img = create_card_image(sf_user.scrollable_frame, user_card, 50,100)
             img.grid(row=0, column=i)
-            L = Label(master=sf_user.scrollable_frame, text= text, fg = color)
-            L.grid(row=1,column=i)
-        sf.grid(row=4, column=0)
+            label = Label(master=sf_user.scrollable_frame, text= text, fg = color)
+            label.grid(row=1,column=i)
+        sf_correct.grid(row=4, column=0)
         sf_user.grid(row=6, column=0)
 
         """Buttons for navigation"""
-        C = Button(master=self.frame, text="Uusi peli", command = self.handle_show_game_settings)
-        M = Button(master=self.frame, text="Päävalikkoon", command = self.handle_show_frontpage_view)
-        C.grid(padx=5, pady=5, sticky=constants.EW)
-        M.grid(padx=5, pady=5, sticky=constants.EW)
+        new_game_button = Button(master=self.frame, text="Uusi peli", command = self.handle_show_game_settings)
+        frontpage_button = Button(master=self.frame, text="Päävalikkoon", command = self.handle_show_frontpage_view)
+        new_game_button.grid(padx=5, pady=5, sticky=constants.EW)
+        frontpage_button.grid(padx=5, pady=5, sticky=constants.EW)
 
     def pack(self):
         self.frame.pack(fill=constants.X)

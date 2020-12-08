@@ -1,5 +1,4 @@
 from ui.frontpage_view import Frontpage
-from ui.login_view import LoginView
 from ui.settings_view import GameSettings
 from ui.showcard_view import ShowCard
 from ui.answerinput_view import GameAnswers

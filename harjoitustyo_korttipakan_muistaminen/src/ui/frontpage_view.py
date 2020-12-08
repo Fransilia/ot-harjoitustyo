@@ -12,13 +12,13 @@ class Frontpage:
 
     def initialize(self):
         self.frame = Frame(master=self.root)
-        A = Button(master=self.frame, text="Kirjaudu", command = self.handle_show_login_view)
-        B = Button(master=self.frame, text ="Tietoja", command = self.info_view)
-        C = Button(master=self.frame, text="Aloita", command = self.handle_show_game_settings)
+        login_button = Button(master=self.frame, text="Kirjaudu", command = self.handle_show_login_view)
+        info_button = Button(master=self.frame, text ="Tietoja", command = self.info_view)
+        start_button = Button(master=self.frame, text="Aloita", command = self.handle_show_game_settings)
 
-        C.grid(padx=5, pady=5, sticky=constants.EW)
-        A.grid(padx=5, pady=5, sticky=constants.EW)
-        B.grid(padx=5, pady=5, sticky=constants.EW)
+        start_button.grid(padx=5, pady=5, sticky=constants.EW)
+        login_button.grid(padx=5, pady=5, sticky=constants.EW)
+        info_button.grid(padx=5, pady=5, sticky=constants.EW)
         
     def info_view(self):
         lines = ["Tämä on muistipeli sovellus.", "Pelin tavoite on muistaa korttipakan kortit järjestyksessä.", "Paina aloita ja valitse korttien määrä aloittaaksesi."]
