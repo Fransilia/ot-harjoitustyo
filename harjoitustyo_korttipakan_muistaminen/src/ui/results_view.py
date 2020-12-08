@@ -36,7 +36,7 @@ class GameResults:
 
         for i in range(len(comparison)):
             is_correct, correct_card, user_card = comparison[i]
-            text = "oikein" if is_correct else "väärin" 
+            text = "vastasit:\noikein" if is_correct else "vastasit:\nväärin" 
             color = "green" if is_correct else "red"
             img = create_card_image(sf.scrollable_frame, correct_card, 50,100)
             img.grid(row=0, column=i)

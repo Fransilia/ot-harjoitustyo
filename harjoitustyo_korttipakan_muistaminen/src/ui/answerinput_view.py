@@ -1,13 +1,14 @@
-from tkinter import Radiobutton, StringVar, IntVar, Frame, Button, constants
+from tkinter import Radiobutton, StringVar, IntVar, Frame, Button, constants, Label
 from entities.card import Suit, Card
 
 class GameAnswers:
-    def __init__(self,root, gamestate, handle_show_result_view):
+    def __init__(self,root, gamestate, handle_show_result_view, handle_show_frontpage_view):
         self.root = root
         self.gamestate = gamestate
         self.suit_var = StringVar()
         self.num_var = IntVar()
         self.handle_show_result_view = handle_show_result_view
+        self.handle_show_frontpage_view = handle_show_frontpage_view
 
         self.initialize()
 
@@ -46,6 +47,11 @@ class GameAnswers:
 
         select_button = Button(master=self.frame, text="Lukitse valinta", command=self.next)
         select_button.grid(padx=5, pady=5, sticky=constants.EW)
+        warning_text = Label(master=self.frame, text="Paina mikäli haluat luovuttaa:")
+        warning_text.config(font=("Courier", 10))
+        warning_text.grid(row=6, column=0)
+        give_up_button = Button(master=self.frame, text="Lopeta peli", command=self.handle_show_frontpage_view)
+        give_up_button.grid(padx=5, pady=5, sticky=constants.EW)
 
     def pack(self):
         self.frame.pack(fill=constants.X)

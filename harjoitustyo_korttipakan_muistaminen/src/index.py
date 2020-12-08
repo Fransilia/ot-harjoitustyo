@@ -7,6 +7,6 @@ window.title('Muistipeli :)')
 ui = UI(window)
 ui.start()
 
-window.geometry("800x500")
+window.geometry("800x750")
 
 window.mainloop()

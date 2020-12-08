@@ -37,7 +37,8 @@ class UI:
         self.current_view = ShowCard(
             self.root,
             gamestate,
-            self.show_answerinput_view
+            self.show_answerinput_view,
+            self.show_frontpage_view
         )
         self.current_view.pack()
 
@@ -46,7 +47,8 @@ class UI:
         self.current_view = GameAnswers(
             self.root,
             gamestate,
-            self.show_result_view
+            self.show_result_view,
+            self.show_frontpage_view
         )
         self.current_view.pack()
 
