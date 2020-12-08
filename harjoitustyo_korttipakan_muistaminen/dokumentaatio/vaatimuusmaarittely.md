@@ -1,10 +1,7 @@
 # Vaatimusmäärittely #
 ## Sovelluksen tarkoitus ##
 Sovellus on peli jonka avulla voi harjoitella muistamista. Sovelluksessa näytetään korttipakan kortteja satunnaisessa järjestyksessä ja pelaajan tehtävä on lopuksi valita oikea järjestys missä kortit juuri näytettiin. 
-## Käyttäjät ##
-* Sovelluksessa on vain normaalit käyttäjät ja käyttäjät jotka eivät ole rekisteröitynyt.
-* Sovelluksessa on mahdollista nähdä omaa tilastoa (esim. montako korttia on muistanut oikein) mikäli käyttää sovellusta rekisteröitynä käyttäjänä. 
-* Sovellukseen saatetaan lisätä pääkäyttäjä jolla on enemmän oikeuksia kuin normaalilla käyttäjällä
+
 
 ## Perusversion toiminnallisuus ##
 ### Kirjautuminen ###
@@ -30,17 +27,17 @@ Sovellus on peli jonka avulla voi harjoitella muistamista. Sovelluksessa näytet
 * Haluttu määrä kortteja näytetään ruudulla (**tehty**)
     * kukin kortti näkyy niin kauan kun on pelin aloituslomakkeessa sanottu
     * ruudun alapuolella näytetään monesko kortti on menossa (esim 4/52)
-* Kun kaikki kortit on näytetty avautuu seuraava näkymä jossa on kaikki korttipakan kortit näkyvissä. (**aloitettu**)
+* Kun kaikki kortit on näytetty avautuu seuraava näkymä jossa kerätään vastaukset. (**tehty**)
     * Näkymässä näytetään myös monesko kortti on menossa ja monta on jäljellä esim (5/52)
     * Näkymässä on myös seuraava/"lukitse vastaus" nappi jossa käyttäjä lukitsee kortin ja siirtyy valitsemaan seuraavaa (**tehty**)
-    * Näkymässä on myös anna periksi nappi missä peli päättyy
+    * Näkymässä on myös anna periksi nappi missä peli päättyy (**tehty**)
 * Pelaaja valitsee kortin minkä muistaa tulleen ensimmäiseksi ja painaa sitten seuraava nappia. Tämän jälkeen hän valitsee muistamansa toisen kortin ja niin edespäin. (**tehty**)
 * Kun pelaaja on valinnut kaikki kortit peli päättyy ja päästään tuloksiin. (**tehty**)
 ### Tulokset ###
 * Pelin päätteeksi päästään tulokset sivulle (**tehty**)
 * Tässä näytetään kuinka monta korttia sai oikein (**tehty**)
 * Mitkä kortit meni oikein ja mitkä väärin (**tehty**)
-* Voi verrata omia vastauksia oikeisiin vastauksiin
+* Voi verrata omia vastauksia oikeisiin vastauksiin (**tehty**)
 * Mikäli on rekisteröitynyt käyttäjä voi verrata aikaisempia tuloksia tämän pelin tulokseen. 
 * Näkyy myös millä asetuksilla juuri pelasi 
 

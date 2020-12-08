@@ -17,5 +17,12 @@
 | 02.12 | 3    | vastaukset tulossivulle scrollattavana |
 | 02.12 | 1    | pylint uudestaan toimimaan toivottavasti tällä kertaa. |
 | 02.12 | 1    | dokumentaatio |
+| 07.12 | 1    | gamestate paikan vaihto |
+| 08.12 | 2    | tulossivun parantaminen esim omat vastaukset näkyviin |
+| 08.12 | 1    | tekstien lisääminen sivuille (ohjeita ja selkeyttä käyttäjälle) |
+| 08.12 | 1    | sovelluksessa navigoiminen tehty helpommaksi |
+| 08.12 | 1    | docstring-dokumentaatio ja pienet parannukset|
+| 08.12 | 1    | dokumentaatio -käyttöohje ja arkkitehtuuri|
+| 08.12 | 1    | viimeiset parannukset ja release2 tekeminen|
 
-Tunnit yhteensä: 28h
+Tunnit yhteensä: 36h
