@@ -55,7 +55,8 @@ class UI:
         self.current_view = GameResults(
             self.root,
             gamestate,
-            self.show_settings_view
+            self.show_settings_view,
+            self.show_frontpage_view
         )
         self.current_view.pack()
     
