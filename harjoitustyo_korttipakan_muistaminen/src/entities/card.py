@@ -1,5 +1,7 @@
 from enum import Enum
 class Suit(Enum):
+    """ Using enums instead of strings since it is a 
+    good way to present set of known values"""
     CLUB = "C"
     DIAMOND = "D"
     HEART = "H"
@@ -23,4 +25,6 @@ class Card:
         return self.number == card2.number and self.suit == card2.suit
 
     def card_id(self):
+        """sting id of the card 
+        for example jack of spades is 11S"""
         return str(self.number) + self.suit.value

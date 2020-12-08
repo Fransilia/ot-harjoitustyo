@@ -1,6 +1,9 @@
 import tkinter as tk
 from tkinter import ttk
 
+"""
+This class makes the scrollable frame that is used in the results page
+"""
 
 class ScrollableFrame(ttk.Frame):
     def __init__(self, container, *args, **kwargs):

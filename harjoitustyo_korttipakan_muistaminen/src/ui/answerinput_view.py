@@ -19,6 +19,8 @@ class GameAnswers:
         print("You selected: " + str(self.num_var.get()))
 
     def next(self):
+        """ takes the players guess and adds it to list. 
+        Takes next guess of goes to resultpage if all guesses are made. """
         suit = Suit(self.suit_var.get())
         card = Card( self.num_var.get(),suit)
         print("going to next page with card: ", card.card_id())
@@ -31,6 +33,7 @@ class GameAnswers:
         self.pack()
 
     def initialize(self):
+        """radiobuttons for asking the player which suit the card is"""
         self.frame = Frame(master=self.root)
         R1 = Radiobutton(master=self.frame, text="Hertta", variable = self.suit_var, value= Suit.HEART.value, command=self.sel_suit)
         R1.grid(row=0, column=1)
@@ -40,7 +43,8 @@ class GameAnswers:
         R3.grid(row=0, column=3)
         R4 = Radiobutton(master=self.frame, text="Risti", variable = self.suit_var, value= Suit.CLUB.value, command=self.sel_suit)
         R4.grid(row=0, column=4)
-
+        
+        """radiobuttons for asking player which number the card is"""
         for i in range(1,14):
             RB = Radiobutton(master=self.frame,text=str(i),variable = self.num_var, value=i, command=self.sel_num)
             RB.grid(row=1, column=i)

@@ -1,8 +1,9 @@
-from tkinter import Label, Frame, Button, constants
+from tkinter import Label, Frame, constants
 from PIL import Image, ImageTk
 import os
 
 def create_card_image(frame, card, width=250, height=400):
+    """Makes the image for a card """
     scriptDir = os.path.dirname(__file__)
     card_path = "./card_images/" + card.card_id() + ".jpg"
     impath = os.path.join(scriptDir, card_path)
