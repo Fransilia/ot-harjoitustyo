@@ -60,6 +60,9 @@ class GameState:
 
     def all_answers_done(self):
         return len(self.deck) <= len(self.answers)
+    
+    def get_answer_size(self):
+        return len(self.answers)
 
     def print_status(self):
         print(self.deck)

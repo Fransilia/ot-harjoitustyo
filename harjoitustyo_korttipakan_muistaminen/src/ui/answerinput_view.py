@@ -35,6 +35,12 @@ class GameAnswers:
     def initialize(self):
         """radiobuttons for asking the player which suit the card is"""
         self.frame = Frame(master=self.root)
+        deck_size = self.gamestate.get_deck_size()
+        current_card = self.gamestate.get_answer_size()
+        card_count = Label(master=self.frame,
+        text="Kortti: " + str(current_card+1) + "/" + str(deck_size))
+        card_count.config(font=("Courier", 10))
+        card_count.grid(row=0, column=0)
         radio_button_heart = Radiobutton(master=self.frame, text="Hertta", variable = self.suit_var, value= Suit.HEART.value, command=self.sel_suit)
         radio_button_heart.grid(row=0, column=1)
         radio_button_diamond = Radiobutton(master=self.frame, text="Ruutu", variable = self.suit_var, value= Suit.DIAMOND.value, command=self.sel_suit)

@@ -15,6 +15,11 @@ class ShowCard:
         self.frame = Frame(master=self.root)
         img = create_card_image(self.frame, self.gamestate.deck[self.current_card])
         img.grid(row=0, column=0)
+        deck_size = self.gamestate.get_deck_size()
+        card_count = Label(master=self.frame,
+        text="Kortti: " + str(self.current_card+1) + "/" + str(deck_size))
+        card_count.config(font=("Courier", 10))
+        card_count.grid(row=1, column=0)
         next_button = Button(master=self.frame,
         text="Seuraava", command=self.nextcard_button_pressed)
         next_button.grid(padx=5, pady=5, sticky=constants.EW)
