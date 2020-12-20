@@ -14,7 +14,7 @@ Sovelluksen avulla voi harjoitella korttipakan ulkoa muistamista.
 [Työaikakirjanpito](https://github.com/Fransilia/ot-harjoitustyo/blob/master/harjoitustyo_korttipakan_muistaminen/dokumentaatio/tyoaikakirjanpito.md)
 
 ### Asennus
-[Release 2](https://github.com/Fransilia/ot-harjoitustyo/releases/tag/viikko6)
+[Viimeisin Release](https://github.com/Fransilia/ot-harjoitustyo/releases/tag/Viikko7)
 
 1. Asenna riippuvuudet komennolla:
 ```
