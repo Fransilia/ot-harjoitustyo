@@ -12,16 +12,20 @@ python3 -m pipenv run start
 ```
 
 ## Pelin aloitus ##
-Ensimmäisessä näkymässä on kolme nappia. Kirjaudu ei tällä hetkellä tee mitään. Aloita nappia (ylin) painamalla pääsee aloittamaan pelin. Alin nappi "tietoja" avaa ruudun missä on lyhyt kuvaus pelistä ja sen tarkoituksesta. 
+Ensimmäisessä näkymässä on kaksi nappia. Aloita nappia (ylin) painamalla pääsee aloittamaan pelin. Alin nappi "tietoja" avaa ruudun missä on lyhyt kuvaus pelistä ja sen tarkoituksesta. 
 
-**Paina aloita nappia** aloittaaksesi pelin
+**Paina aloita nappia** aloittaaksesi pelin. Pääset tästä näkymään mistä voit valita pelisi asetukset.
 
 ## Pelin asetuksien valitseminen ##
-Aloita napin painamisen jälkeen sovellus kysyy montako korttia pelaaja tahtoo koittaa muistaa. Kirjoita tähän kokonaisluku ja paina aloita. 
+Aloita napin painamisen jälkeen sovellus kysyy montako korttia pelaaja tahtoo koittaa muistaa. Kirjoita tähän kokonaisluku. 
+
+Kun olet valinnut pelin asetukset paina aloita nappia.
 
 ## Pelaaminen ##
-Kortteja näytetään yksitellen niin monta kun olet valinnut. Koita muistaa kortit ja oikea järjestys!! 
+Kortteja näytetään yksitellen niin monta kun olet valinnut. Paina seuraava nappia nähdäksesi seuraavan kortin. Koita muistaa kortit ja oikea järjestys!! 
 
-**Kun kaikki kortit on näytetty** pelaaja siirtyy täyttämään vastaukset hänen muistamassaan järjestyksessä. Aina kun valitset kortin **muista painaa lukitse vastaus** päästäksesi valitsemaan seuraavaa korttia.
+**Kun kaikki kortit on näytetty** pelaaja siirtyy täyttämään vastaukset hänen muistamassaan järjestyksessä. Aina kun valitset kortin **muista painaa lukitse vastaus** päästäksesi valitsemaan seuraavaa korttia. Alhaalta näet monesko kortti on menossa.
 
-Pelin loputtua näkyy tulokset ja tästä voi aloittaa uuden pelin. 
+Kun olet täyttänyt kaikki vastaukset peli loppuu ja pääset tulokset sivulle. Tässä näet miten hyvin pärjäsit ja mikäli olit top 10 joukossa voit kirjoittaa oman nimimerkkisi ja muut pelaajat näkevät huipputuloksesi.
+
+Tulokset näkymästä voi aloittaa uuden pelin, katsoa toplistaa tai palata päävalikkoon. 

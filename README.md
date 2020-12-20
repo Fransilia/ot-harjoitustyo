@@ -1,16 +1,17 @@
 # Ot-harjoitustyö
 ### Korttipakan muistaminen
-Sovelluksen avulla voi harjoitella korttipakan muistamista.
-
-### Tämänhetkinen toiminta
-Perusprojektirakenne toimii. Alkuruudussa aloita nappia painamalla pääsee valitsemaan korttien määrän. Väärillä syötteillä ohjelma ilmoittaa virheen. Kun oikea syöte on laitettu niin peli alkaa. Näytetään yksitellen haluttu määrä kortteja. Seuraavaan pääsee seuraava nappia painamalla. Kun kaikki on näytetty päästään näkymään missä käyttäjä laittaa vastaukset muistamassaan järjestyksessä. Kun kaikki on laitettu päästään tulos sivulle. Tulos sivulla näytetään montako arvausta meni oikein. Näytetään myös oikeat vastaukset, jos käyttäjä muisti oikein vai väärin kyseisen kortin ja käyttäjän vastaukset.  Tulossivulta voi aloittaa uuden pelin.
+Sovelluksen avulla voi harjoitella korttipakan ulkoa muistamista.
 
 ### Dokumentaatio
-[Työaikakirjanpito](https://github.com/Fransilia/ot-harjoitustyo/blob/master/harjoitustyo_korttipakan_muistaminen/dokumentaatio/tyoaikakirjanpito.md)
+[Käyttöohje](https://github.com/Fransilia/ot-harjoitustyo/blob/master/harjoitustyo_korttipakan_muistaminen/dokumentaatio/kayttoohje.md)
 
 [Vaatimusmäärittely](https://github.com/Fransilia/ot-harjoitustyo/blob/master/harjoitustyo_korttipakan_muistaminen/dokumentaatio/vaatimuusmaarittely.md)
 
-[Arkkitehtuuri](https://github.com/Fransilia/ot-harjoitustyo/blob/41148b8e3d566ece72ad9407172c8cc6369052e1/harjoitustyo_korttipakan_muistaminen/dokumentaatio/arkkitehtuuri.md)
+[Arkkitehtuurikuvaus](https://github.com/Fransilia/ot-harjoitustyo/blob/41148b8e3d566ece72ad9407172c8cc6369052e1/harjoitustyo_korttipakan_muistaminen/dokumentaatio/arkkitehtuuri.md)
+
+[Testausdokumentti](https://github.com/Fransilia/ot-harjoitustyo/blob/master/harjoitustyo_korttipakan_muistaminen/dokumentaatio/testausdokumentti  .md)
+
+[Työaikakirjanpito](https://github.com/Fransilia/ot-harjoitustyo/blob/master/harjoitustyo_korttipakan_muistaminen/dokumentaatio/tyoaikakirjanpito.md)
 
 ### Asennus
 [Release 2](https://github.com/Fransilia/ot-harjoitustyo/releases/tag/viikko6)

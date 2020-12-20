@@ -13,7 +13,6 @@ class UI:
         self.hide_current_view()
         self.current_view = Frontpage(
             self.root,
-            self.show_login_view,
             self.show_settings_view
         )
         self.current_view.pack()
@@ -25,11 +24,6 @@ class UI:
             self.show_game_first_view
         )
         self.current_view.pack()
-
-
-    def show_login_view(self):
-       ##self.current_view = LoginView
-       print("moi, login tulossa")
 
     def show_game_first_view(self,gamestate):
         self.hide_current_view()

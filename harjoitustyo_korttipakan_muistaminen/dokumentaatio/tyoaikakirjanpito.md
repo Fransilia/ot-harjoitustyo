@@ -24,5 +24,13 @@
 | 08.12 | 1    | docstring-dokumentaatio ja pienet parannukset|
 | 08.12 | 1    | dokumentaatio -käyttöohje ja arkkitehtuuri|
 | 08.12 | 1    | viimeiset parannukset ja release2 tekeminen|
+| 18.12 | 1    | Käyttöohje päivitetty|
+| 18.12 | 1    | kirjautumis jutut poistettu|
+| 18.12 | 2    | pelinäkymiä päivitetty jotta pelaajalle olisi helpompaa|
+| 19.12 | 2    | huipputulosten tallentaminen|
+| 20.12 | 1    | pieniä korjauksia|
+| 20.12 | 1    | dokumentointi - arkitehtuuri ja testausdokumentti|
+| 20.12 | 1    | dokumentointi - vaatimusmäärittely ja loppumuokkaukset muihin|
+| 20.12 | 1    | vikan releasen tekeminen|
 
-Tunnit yhteensä: 36h
+Tunnit yhteensä: 47h
