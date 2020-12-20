@@ -25,3 +25,4 @@ class ScrollableFrame(ttk.Frame):
 
         canvas.grid(row=1, column=0)
         scrollbar.grid(row=0, column=0)
+        

@@ -54,12 +54,12 @@ class UI:
             self.show_frontpage_view
         )
         self.current_view.pack()
-    
+
     def hide_current_view(self):
         if self.current_view:
             self.current_view.destroy()
 
         self.current_view = None
-    
+
     def start(self):
         self.show_frontpage_view()

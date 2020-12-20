@@ -1,12 +1,12 @@
-from tkinter import Label, Frame, constants
-from PIL import Image, ImageTk
 import os
+from tkinter import Label
+from PIL import Image, ImageTk
 
 def create_card_image(frame, card, width=250, height=400):
     """Makes the image for a card """
-    scriptDir = os.path.dirname(__file__)
+    script_dir = os.path.dirname(__file__)
     card_path = "./card_images/" + card.card_id() + ".jpg"
-    impath = os.path.join(scriptDir, card_path)
+    impath = os.path.join(script_dir, card_path)
     print(impath)
     currentcard = Image.open(impath)
     currentcard = currentcard.resize((width,height), Image.ANTIALIAS)

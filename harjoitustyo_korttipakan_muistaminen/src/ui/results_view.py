@@ -43,7 +43,7 @@ class GameResults:
             """Using scrollable frame to show the right answers
             and guesses (pictures of cards) made by player"""
             is_correct, correct_card, user_card = comparison[i]
-            text = "vastasit:\noikein" if is_correct else "vastasit:\nväärin" 
+            text = "vastasit:\noikein" if is_correct else "vastasit:\nväärin"
             color = "green" if is_correct else "red"
             img = create_card_image(sf_correct.scrollable_frame, correct_card, 50,100)
             img.grid(row=0, column=i)

@@ -19,7 +19,7 @@ class GameAnswers:
         print("You selected: " + str(self.num_var.get()))
 
     def next(self):
-        """ takes the players guess and adds it to list. 
+        """ takes the players guess and adds it to list.
         Takes next guess of goes to resultpage if all guesses are made. """
         suit = Suit(self.suit_var.get())
         card = Card( self.num_var.get(),suit)
@@ -35,19 +35,19 @@ class GameAnswers:
     def initialize(self):
         """radiobuttons for asking the player which suit the card is"""
         self.frame = Frame(master=self.root)
-        R1 = Radiobutton(master=self.frame, text="Hertta", variable = self.suit_var, value= Suit.HEART.value, command=self.sel_suit)
-        R1.grid(row=0, column=1)
-        R2 = Radiobutton(master=self.frame, text="Ruutu", variable = self.suit_var, value= Suit.DIAMOND.value, command=self.sel_suit)
-        R2.grid(row=0, column=2)
-        R3 = Radiobutton(master=self.frame, text="Pata", variable = self.suit_var, value= Suit.SPADE.value, command=self.sel_suit)
-        R3.grid(row=0, column=3)
-        R4 = Radiobutton(master=self.frame, text="Risti", variable = self.suit_var, value= Suit.CLUB.value, command=self.sel_suit)
-        R4.grid(row=0, column=4)
-        
+        radio_button_heart = Radiobutton(master=self.frame, text="Hertta", variable = self.suit_var, value= Suit.HEART.value, command=self.sel_suit)
+        radio_button_heart.grid(row=0, column=1)
+        radio_button_diamond = Radiobutton(master=self.frame, text="Ruutu", variable = self.suit_var, value= Suit.DIAMOND.value, command=self.sel_suit)
+        radio_button_diamond.grid(row=0, column=2)
+        radio_button_spade = Radiobutton(master=self.frame, text="Pata", variable = self.suit_var, value= Suit.SPADE.value, command=self.sel_suit)
+        radio_button_spade.grid(row=0, column=3)
+        radio_button_club = Radiobutton(master=self.frame, text="Risti", variable = self.suit_var, value= Suit.CLUB.value, command=self.sel_suit)
+        radio_button_club.grid(row=0, column=4)
+
         """radiobuttons for asking player which number the card is"""
         for i in range(1,14):
-            RB = Radiobutton(master=self.frame,text=str(i),variable = self.num_var, value=i, command=self.sel_num)
-            RB.grid(row=1, column=i)
+            radio_button = Radiobutton(master=self.frame,text=str(i),variable = self.num_var, value=i, command=self.sel_num)
+            radio_button.grid(row=1, column=i)
 
         select_button = Button(master=self.frame, text="Lukitse valinta", command=self.next)
         select_button.grid(padx=5, pady=5, sticky=constants.EW)

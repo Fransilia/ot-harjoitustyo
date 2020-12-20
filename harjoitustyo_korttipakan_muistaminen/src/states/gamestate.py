@@ -1,6 +1,6 @@
-from entities.card import Card, Suit
 import math
 import random
+from entities.card import Card, Suit
 
 class GameState:
     def __init__(self, amount):

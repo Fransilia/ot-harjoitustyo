@@ -8,7 +8,7 @@ class GameSettings:
         self.handle_show_game_first_view = handle_show_game_first_view
 
         self.initialize()
-    
+
     def amount_handler(self):
         """checking that the input is int if not errormessage shown"""
         amount = self.card_number_entry.get()
@@ -21,11 +21,11 @@ class GameSettings:
             messagebox.showinfo("VIRHE", "Ole ystävällinen ja syötä kokonaisluku. Kiitos!")
 
     def initialize(self):
-        """asking for amount of cards to be shown and giving the 
+        """asking for amount of cards to be shown and giving the
         input to amount_handler"""
         self.frame = Frame(master=self.root)
-        L1 = Label(master=self.frame, text="Korttien määrä: ")
-        L1.grid(row=0, column=0)
+        card_amunt_label = Label(master=self.frame, text="Korttien määrä: ")
+        card_amunt_label.grid(row=0, column=0)
         self.card_number_entry = Entry(master = self.frame)
         self.card_number_entry.grid(row=0, column=1)
         start_button = Button(master=self.frame, text="Aloita peli", command=self.amount_handler)
