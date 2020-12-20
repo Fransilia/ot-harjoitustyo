@@ -26,6 +26,6 @@ Kortteja näytetään yksitellen niin monta kun olet valinnut. Paina seuraava na
 
 **Kun kaikki kortit on näytetty** pelaaja siirtyy täyttämään vastaukset hänen muistamassaan järjestyksessä. Aina kun valitset kortin **muista painaa lukitse vastaus** päästäksesi valitsemaan seuraavaa korttia. Alhaalta näet monesko kortti on menossa.
 
-Kun olet täyttänyt kaikki vastaukset peli loppuu ja pääset tulokset sivulle. Tässä näet miten hyvin pärjäsit ja mikäli olit top 10 joukossa voit kirjoittaa oman nimimerkkisi ja muut pelaajat näkevät huipputuloksesi.
+Kun olet täyttänyt kaikki vastaukset peli loppuu ja pääset tulokset sivulle. Tässä näet miten hyvin pärjäsit.
 
-Tulokset näkymästä voi aloittaa uuden pelin, katsoa toplistaa tai palata päävalikkoon. 
+Tulokset näkymästä voi aloittaa uuden pelin tai palata päävalikkoon. 

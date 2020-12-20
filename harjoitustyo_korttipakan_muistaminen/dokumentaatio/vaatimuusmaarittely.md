@@ -12,7 +12,6 @@ Sovellus on peli jonka avulla voi harjoitella muistamista. Sovelluksessa näytet
 * Lomakkeen lopussa on nappi aloita peli ja peli alkaa käyttäjän antamilla asetuksilla 
 ### Pelaaminen ###
 * Haluttu määrä kortteja näytetään ruudulla 
-    * kukin kortti näkyy niin kauan kun on pelin aloituslomakkeessa sanottu
     * ruudun alapuolella näytetään monesko kortti on menossa (esim 4/52)
 * Kun kaikki kortit on näytetty avautuu seuraava näkymä jossa kerätään vastaukset. 
     * Näkymässä näytetään myös monesko kortti on menossa ja monta on jäljellä esim (5/52)
@@ -25,7 +24,6 @@ Sovellus on peli jonka avulla voi harjoitella muistamista. Sovelluksessa näytet
 * Tässä näytetään kuinka monta korttia sai oikein 
 * Mitkä kortit meni oikein ja mitkä väärin 
 * Voi verrata omia vastauksia oikeisiin vastauksiin 
-* Mikäli peli meni hyvin voi laittaa oman nimensä jotta se näkyy highscoressa
 
 ## Jatkokehitysideoita ##
 * hienot animaatiot

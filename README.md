@@ -9,7 +9,7 @@ Sovelluksen avulla voi harjoitella korttipakan ulkoa muistamista.
 
 [Arkkitehtuurikuvaus](https://github.com/Fransilia/ot-harjoitustyo/blob/41148b8e3d566ece72ad9407172c8cc6369052e1/harjoitustyo_korttipakan_muistaminen/dokumentaatio/arkkitehtuuri.md)
 
-[Testausdokumentti](https://github.com/Fransilia/ot-harjoitustyo/blob/master/harjoitustyo_korttipakan_muistaminen/dokumentaatio/testausdokumentti  .md)
+[Testausdokumentti](https://github.com/Fransilia/ot-harjoitustyo/blob/master/harjoitustyo_korttipakan_muistaminen/dokumentaatio/testausdokumentti.md)
 
 [Työaikakirjanpito](https://github.com/Fransilia/ot-harjoitustyo/blob/master/harjoitustyo_korttipakan_muistaminen/dokumentaatio/tyoaikakirjanpito.md)
 
